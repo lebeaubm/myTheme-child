@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#puppyDiv,
+#singlePuppDiv {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.theDiv {
+    margin-bottom: 20px;
+}
+
+.nameStyle {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nameStyle:hover {
+    background-color: #f5f5f5;
+}
+
+.allPlayersButton {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.allPlayersButton:hover {
+    background-color: #555;
+}
+
+.allPuppies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.atag {
+    color: black;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+header {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+.allPuppies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.theDiv {
+    width: 30%; 
+    margin-bottom: 20px;
+}
+
+.nameStyle {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nameStyle:hover {
+    background-color: #f5f5f5;
+}
